@@ -1,16 +1,32 @@
 # fe_digital_library
 
-A new Flutter project.
+Proyek Flutter untuk aplikasi digital library.
 
-## Getting Started
+## Setup Frontend Flutter
+1. Masuk ke folder proyek:
+   ```bash
+   cd fe_digital_library
+   ```
+2. Install dependency:
+   ```bash
+   flutter pub get
+   ```
+3. Jalankan aplikasi:
+   ```bash
+   flutter run
+   ```
+   Atau untuk browser:
+   ```bash
+   flutter run -d chrome
+   ```
 
-This project is a starting point for a Flutter application.
+## Prasyarat
+- Flutter SDK terpasang
+- Android Studio / Xcode / browser tersedia jika ingin menjalankan target tersebut
 
-A few resources to get you started if this is your first Flutter project:
+## Catatan
+- Jika ingin menghubungkan ke backend, pastikan API Laravel berjalan dan URL endpoint sudah benar.
+- Untuk pengembangan web, gunakan `flutter run -d chrome`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Sumber Daya
+- [Dokumentasi Flutter](https://docs.flutter.dev/)
