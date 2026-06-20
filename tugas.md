@@ -1,6 +1,7 @@
 # Clone project Backend nya lalu install sesuai instruksi di README.md baca dengan detail
 
 # **Sesi Flutter**
+## jika belum ada project buat dulu   [Buat Project](setup-awal.md), klik tulisan biru
 
 # 1. Sesi Setup awal Flutter
 
