@@ -25,6 +25,7 @@ class MemberController extends Controller
             'name' => 'required',
             'email' => 'required|email|unique:members',
             'phone' => 'required',
+            'address' => 'required',
         ]);
         $member = Member::create($request->all());
         return response()->json([

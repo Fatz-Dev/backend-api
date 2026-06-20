@@ -16,6 +16,10 @@ return new class extends Migration
             $table->string('title');
             $table->foreignId('author_id')->constrained()->onDelete('cascade');
             $table->foreignId('publisher_id')->constrained()->onDelete('cascade');
+            $table->string('isbn')->unique();
+            $table->year('tahun_terbit');
+            $table->string('kategori');
+            $table->integer('jumlah_stok');
             $table->timestamps();
         });
     }

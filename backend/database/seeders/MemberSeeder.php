@@ -18,52 +18,62 @@ class MemberSeeder extends Seeder
             [
                 'name' => 'Ali',
                 'email' => 'ali@mail.com',
-                'phone' => '081234567'
+                'phone' => '081234567',
+                'address' => 'Jl. Merdeka No. 1'
             ],
             [
                 'name' => 'Budi',
                 'email' => 'budi@mail.com',
-                'phone' => '081987654'
+                'phone' => '081987654',
+                'address' => 'Jl. Sudirman No. 2'
             ],
             [
                 'name' => 'Cici',
                 'email' => 'cici@mail.com',
-                'phone' => '081111222'
+                'phone' => '081111222',
+                'address' => 'Jl. Diponegoro No. 3'
             ],
             [
                 'name' => 'Dedi',
                 'email' => 'dedi@mail.com',
-                'phone' => '081222333'
+                'phone' => '081222333',
+                'address' => 'Jl. Gatot Subroto No. 4'
             ],
             [
-                'name' => 'Eka',
-                'email' => 'eka@mail.com',
-                'phone' => '081333444'
+                'name' => 'Eko',
+                'email' => 'eko@mail.com',
+                'phone' => '081333444',
+                'address' => 'Jl. Jenderal Sudirman No. 5'
             ],
             [
                 'name' => 'Fajar',
                 'email' => 'fajar@mail.com',
-                'phone' => '081444555'
+                'phone' => '081444555',
+                'address' => 'Jl. Diponegoro No. 6' 
             ],
             [
-                'name' => 'Gina',
-                'email' => 'gina@mail.com',
-                'phone' => '081555666'
+                'name' => 'Gita',
+                'email' => 'gita@mail.com',
+                'phone' => '081555666',
+                'address' => 'Jl. Merdeka No. 7'
             ],
             [
                 'name' => 'Hadi',
                 'email' => 'hadi@mail.com',
-                'phone' => '081666777'
+                'phone' => '081666777',
+                'address' => 'Jl. Sudirman No. 8'
             ],
             [
                 'name' => 'Indah',
                 'email' => 'indah@mail.com',
-                'phone' => '081777888'
+                'phone' => '081777888',
+                'address' => 'Jl. Diponegoro No. 9'
             ],
             [
                 'name' => 'Joko',
                 'email' => 'joko@mail.com',
-                'phone' => '081888999'
+                'phone' => '081888999',
+                'address' => 'Jl. Jenderal Sudirman No. 10'
             ],
         ]);
     }
